@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+    <title>SignUp Page</title>
+{% endblock %}
+
+{% block body %}
+<h1><center> SignUp Page</center></h1>
+<form action="/signUp" method="GET">
+    <center>
+    <label> Name</label><br>
+    <input type="text" name="Name"><br><br>
+
+    <label> Email</label><br>
+    <input type="email" name="Email"><br><br>
+
+    <label> Phone</label><br>
+    <input type="number" name="Number" max="10"><br><br>
+
+    <label> Password</label><br>
+    <input type="password" name="Password"><br><br>
+
+    <label> Retype Password</label><br>
+    <input type="password" name="Retype Password"><br><br>
+
+    <input type="submit">
+    </center>
+</form>
+
+{% endblock %}
