@@ -18,5 +18,3 @@ Project Demo: https://drive.google.com/file/d/1zw-9H4xmZGHYvAn1JKtNcrIhOX-X3yO_/
 
 
 
-https://user-images.githubusercontent.com/101400227/202518460-74006584-5ce5-48e6-9196-24834b0634db.mp4
-
