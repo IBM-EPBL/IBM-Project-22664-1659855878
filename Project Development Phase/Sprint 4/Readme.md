@@ -1,3 +1,8 @@
+OUTPUT:<br/>
+1. Connecting today, monthly and weekly expense to DB<br/>
+2. Adding expenses data to DB<br/>
+3. Showing expenses in history <br/>
+4. Send grid<br/>
 
 ![login1](https://user-images.githubusercontent.com/101400227/202509253-7fd35fc1-0686-4782-9d68-9815881ee1d9.png)
 ![register1](https://user-images.githubusercontent.com/101400227/202509276-3209f9da-53c3-4930-a520-13aa9087770d.png)
