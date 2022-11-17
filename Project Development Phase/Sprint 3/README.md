@@ -1,4 +1,10 @@
-OUTPUT
+OUTPUT:<br/>
+1. Today expense<br/>
+2. Monthly expense<br/>
+3. Yearly expense<br/>
+4. Connecting login and registration page to DB<br/>
+
+
 ![TODAY](https://user-images.githubusercontent.com/101400227/202506827-2f4d0955-6ec8-4d2f-96b6-290b1baa6c1d.png)
 ![MONTH](https://user-images.githubusercontent.com/101400227/202506838-3344cbde-2a8c-4b19-96df-9f48df5d4b05.png)
 ![YEAR](https://user-images.githubusercontent.com/101400227/202506851-891bbfb2-084d-4205-967b-8b6bb3bce072.png)
