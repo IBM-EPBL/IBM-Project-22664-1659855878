@@ -1,5 +1,5 @@
 OUTPUT:
-1.Login page
+1.Login page<br/>
 2.Registration page
 3.Dashboard
 
