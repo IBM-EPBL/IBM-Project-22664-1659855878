@@ -2,7 +2,8 @@ OUTPUT:<br/>
 1. Today expense<br/>
 2. Monthly expense<br/>
 3. Yearly expense<br/>
-4. Connecting login and registration page to DB<br/>
+4. History<br/>
+5. Connecting login and registration page to DB<br/>
 
 
 ![TODAY](https://user-images.githubusercontent.com/101400227/202506827-2f4d0955-6ec8-4d2f-96b6-290b1baa6c1d.png)
