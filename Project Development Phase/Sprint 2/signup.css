@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+ background-color:#eef1f8;
+ margin:0px;
+ padding:0px;
+}
+
+a{
+ text-decoration:none;
+}
+
+.container{
+ width:500px;
+ height:500px;
+ background-color:#FFFFFF;
+ position: absolute;
+ left:50%;
+ top:45%;
+ transform:translate(-50%,-50%);
+ box-shadow:2px 2px 30px rgba(16,141,99,0.3);
+ border-radius:20px;
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+
+.container .frm{
+	align-items: center;
+	margin: 170px 0;
+	padding-left: 500px;
+
+}
+
+.sign-up{
+	position: relative;
+	left: -250px;
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.text-container{
+    position: relative;
+    top:-100px; padding-bottom:-50px;
+	width:50%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	margin-left:700px;
+	margin-bottom:-10px;
+	top:-40px
+}
+
+.heading{
+	font-family:calibri;
+	color:rgba(30,30,30,1);
+	position: relative;
+	left:80px ;
+}
+
+.text{
+	width:350px;
+	height:50px;
+	box-shadow:2px 6px 18px rgba(16,141,99,0.3);
+	border-radius: 30px;
+	display:flex;
+	align-items:center;
+	margin:10px;
+}
+
+.text input{
+	height:40px;
+	width:80%;
+	outline:none;
+	border:none;
+	font-size:14px;
+	margin:5px;
+}
+
+.text img{
+	margin-left:20px; 
+}
+
+.conditions{
+ font-family:myriad pro;
+ color:#bbc1cb;
+ font-size:14px;
+}
+
+.terms{
+    top:20px ;
+    position: relative;
+	left: 70px;
+	display: flex;
+	align-items:center; 
+}
+
+.conditions a{
+	color:#32be8f;
+	font-weight:500;
+}
+
+button{
+	width:200px;
+	height:40px;
+	outline:none;
+	border:none;
+	border-radius:20px;
+	background:linear-gradient(-30deg,#108d63,#32be8f 55%);
+	box-shadow:2px 6px 16px rgba(16,141,99,0.3);
+	color:#FFFFFF;
+	font-weight:600;
+	letter-spacing:1px;
+	font-weight: 13px;
+}
+
+button:active{
+	transform:scale(1.1);
+}
+
+.text-container p{
+	width:70%;
+	text-align: center;
+	font-family:arial;
+	font-size: 15px;
+	font-weight: 400;
+	line-height:0px;
+}
+
+
+.toop{
+	position: relative;
+	top: 20px;
+	left: 75px;
+}
+
+
+.check{
+	position: relative;
+	top: -8px;
+	left: -5px;
+}
+
+.para{
+	position: relative;
+	top: 0px;
+	left: -45px;
+
+}
+
+
+.fig1{
+	position: relative;
+	size:200%;
+}
+
+#png{
+	position: relative;
+	left: -270px;
+	top: -45px;
+	
+}
+
+.or{
+	position: relative;
+	left:180px;
+}
+
+.s1{
+	position: relative;
+	left: 140px;
+}
+
