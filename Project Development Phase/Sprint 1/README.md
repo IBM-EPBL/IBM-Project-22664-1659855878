@@ -1,4 +1,4 @@
-OUTPUT:
+OUTPUT:<br/>
 1.Login page<br/>
 2.Registration page<br/>
 3.Dashboard<br/>
