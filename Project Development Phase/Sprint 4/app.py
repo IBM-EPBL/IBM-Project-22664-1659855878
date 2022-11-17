@@ -9,7 +9,7 @@ app.secret_key = 'IBM'
   
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Malli@9597'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'expense'
 
 mysql = MySQL(app)
