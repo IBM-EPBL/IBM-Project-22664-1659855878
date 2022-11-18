@@ -1,4 +1,6 @@
 import re
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import *
 from flask import Flask, render_template, request, redirect, session 
 from flask_mysqldb import MySQL
 
@@ -9,7 +11,7 @@ app.secret_key = 'IBM'
   
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Malli@9597'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'expense'
 
 mysql = MySQL(app)
@@ -106,6 +108,7 @@ def register():
             cursor.execute('INSERT INTO register VALUES (NULL, % s, % s, % s)', (username, email,password))
             mysql.connection.commit()
             msg = 'You have successfully registered !'
+            send_email()
             return render_template('signup.html', msg = msg)
         
         
@@ -389,6 +392,33 @@ def logout():
    session.pop('id', None)
    session.pop('username', None)
    return render_template('home.html')
+
+
+@app.route('/logout')
+
+def logout():
+   session.pop('loggedin', None)
+   session.pop('id', None)
+   session.pop('username', None)
+   return render_template('home.html')
+
+
+
+def send_email():
+    from_email=email('211719104145@smartinternz.com')
+    to_email=To('suriya.ms.2019.cse@ritchennai.edu.in')
+    subject = 'LOGGED IN'
+    content = Content("text/plain", "You have successfully signed in to the personal expense tracker application\nwith regards\n\t\t PETA-Team")
+    mail = Mail(from_email, to_email, subject, content)
+    
+    try:
+        sg = SendGridAPIClient(['SendGridApiKey'])
+        response = sg.send(mail)
+        print(response.status_code)
+        print(response.body)
+        print(response.headers)
+    except Exception as e:
+        print(e)
 
              
 
