@@ -159,8 +159,7 @@ def register():
         
         
  
-        
- #LOGIN--PAGE
+      
     
 @app.route("/signin")
 def signin():
@@ -231,8 +230,6 @@ def addexpense():
 
 
 
-#DISPLAY---graph 
-
 @app.route("/display")
 def display():
     print(session["username"],session['id'])
@@ -253,9 +250,6 @@ def display():
                           
 
 
-
-#delete---the--data
-
 @app.route('/delete/<string:id>', methods = ['POST', 'GET' ])
 def delete(id):
      sql = "DELETE FROM expenses WHERE  id = {0}".format(id)
@@ -263,9 +257,7 @@ def delete(id):
      ibm_db.execute(stmt)
      print('deleted successfully')    
      return redirect("/display")
- 
-    
-#UPDATE---DATA
+
 
 @app.route('/edit/<id>', methods = ['POST', 'GET' ])
 def edit(id):
